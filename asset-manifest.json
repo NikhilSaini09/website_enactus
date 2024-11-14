@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/website_enactus/static/css/main.37074a24.css",
+    "main.js": "/website_enactus/static/js/main.25e23af3.js",
+    "static/js/453.0395d634.chunk.js": "/website_enactus/static/js/453.0395d634.chunk.js",
+    "static/media/background-image-IITB.png": "/website_enactus/static/media/background-image-IITB.bfed571e917397452176.png",
+    "static/media/Enactus_Logo.png": "/website_enactus/static/media/Enactus_Logo.0dcd72c32f889d79aeba.png",
+    "static/media/team_member.png": "/website_enactus/static/media/team_member.1b99d8cc04ba3319ddad.png",
+    "static/media/img3.avif": "/website_enactus/static/media/img3.d52292a193be4580ec3b.avif",
+    "static/media/img2.avif": "/website_enactus/static/media/img2.9a51513eee997ca230f4.avif",
+    "static/media/img1.avif": "/website_enactus/static/media/img1.aede6d65883a46bd8fbb.avif",
+    "index.html": "/website_enactus/index.html",
+    "main.37074a24.css.map": "/website_enactus/static/css/main.37074a24.css.map",
+    "main.25e23af3.js.map": "/website_enactus/static/js/main.25e23af3.js.map",
+    "453.0395d634.chunk.js.map": "/website_enactus/static/js/453.0395d634.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37074a24.css",
+    "static/js/main.25e23af3.js"
+  ]
+}
