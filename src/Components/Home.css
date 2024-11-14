@@ -1,0 +1,197 @@
+.bg-img {
+    width: 100%;
+  }
+  
+  .iitb-photo {
+    position: relative;
+    text-align: center;
+    color: #87878a;
+  }
+  
+  .tagline {
+    color: white;
+    position: absolute;
+    top: 29%;
+    left: 45%;
+    transform: translate(-29%, -50%);
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  .tagline p {
+    margin: 8px;
+    text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000; 
+  }
+  
+  .Tagline {
+    text-align: center;
+    /* background-image: url("Images/background-image-IITB.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center top; */
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .about-us{
+    background-color: #5a5a5d;
+    overflow: auto;
+    margin-top: 5px;
+  }
+  
+  .aboutus{
+    /* text-align: center; */
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .about-us img{
+    display: inline-block;
+    /* justify-content:flex-start; */
+    width: 33%;
+    height: 250px;  
+  }
+
+  .heading{
+    font-size: 50px;
+    color: white;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .about-us p{
+    color:white; 
+    font-size: 20px;
+  }
+
+  .contact-us{
+    background-color: #5a5a5d;
+    overflow: auto;
+    margin-top: 10px;
+  }
+  
+  .contactus{
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .contactus p{
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+  }
+  
+  .content{
+    display:flex;
+  }
+  
+  .content-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background-color: white;
+  }
+  
+  .content h3{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, Arial, Helvetica, sans-serif;
+  }
+  .input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .input-group{
+    flex-basis: 45%;
+  }
+  
+  label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  textarea{
+    /* border: none; */
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    /* padding: 10px; */
+    box-sizing: border-box;
+  }
+  
+  button{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 4px;
+    background-color: black;
+    color: white;
+  }
+  
+  .content-right{
+    flex-basis: 40%;
+    padding: 40px;
+    /* background-color: black;
+    color: white; */
+  }
+  
+  .content-right td rd:first-child{
+    padding-right: 20px;
+  }
+  
+  .content-right tr td{
+    padding-top: 20px;
+    padding-right: 20px;
+    
+  }
+  
+  .social-media{
+    margin-top: 50px;
+  }
+  
+  .social-icons{
+    display:flex;
+    gap: 20px;
+  }

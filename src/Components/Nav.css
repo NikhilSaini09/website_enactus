@@ -1,0 +1,74 @@
+/* Base styles */
+.navbar {
+    background-color: #5a5a5d;
+    /* margin: 0px 0px 0 0;
+    padding: 0 0 0 0; */
+    width: 100%;
+    height: 80px;
+    display: grid;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    /* grid-template-columns: 6rem 2fr 4fr 4fr 12rem; */
+}
+
+.nav-list {
+    /* display: flex;
+    justify-content: end; */
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 50px;
+}
+
+.nav-list ul {
+  margin: 0;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: middle;
+  list-style-type: none;
+}
+
+.nav-list ul li {
+  padding-right: 60px;
+  font-size: 30px;
+}
+
+.nav-list ul li button, .nav-list ul li a {
+  background: none;
+  border: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  transition: 0.5s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.enactus-logo {
+  width: 140px;
+  margin: 0px 0px 0px 30px;
+}
+
+.blank {
+  height: 80px;
+  width: auto;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    .navbar {
+    padding: 0px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list li {
+        margin: 0px 0;
+    }
+}
